@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Preahvihear&family=Roboto&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -13,6 +16,7 @@ body {
 body {
   color: white;
   background: #11071f;
+  font-family: "Preahvihear", sans-serif !important;
 }
 
 a,

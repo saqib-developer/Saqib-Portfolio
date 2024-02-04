@@ -1,0 +1,64 @@
+.intro {
+  display: flex;
+  margin-top: 50px;
+}
+
+.imgContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.img {
+  width: 180px;
+  height: 194px;
+  background: radial-gradient(50% 50% at 50% 50%, #763cac 0%, rgba(50, 15, 133, 0) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameArrow {
+  position: absolute;
+  margin-left: 104px;
+  margin-top: -48px;
+}
+
+.name {
+  position: relative;
+  top: -97px;
+  left: 105px;
+  width: max-content;
+}
+
+.imgDiscription {
+  margin-top: 19px;
+  margin-left: 10px;
+}
+
+.headCover {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.oval {
+  display: inline-block;
+  position: absolute;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  transform: rotate(350deg);
+  border-radius: 50%;
+  width: 149px;
+  height: 59px;
+}
+
+.para1 {
+  line-height: 33px;
+  font-size: 22px;
+  margin: 80px 0;
+}
+
+.para2 {
+  margin: 35px 0;
+  font-size: 1em;
+  line-height: 25px;
+}
