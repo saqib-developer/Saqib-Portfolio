@@ -17,6 +17,11 @@
   justify-content: center;
 }
 
+.img img {
+  width: 102;
+  height: auto;
+}
+
 .nameArrow {
   position: absolute;
   margin-left: 104px;
@@ -28,6 +33,19 @@
   top: -97px;
   left: 105px;
   width: max-content;
+}
+
+.h1 {
+  display: inline;
+  color: rgb(113, 39, 186);
+  font-weight: normal;
+}
+
+.h2 {
+  display: inline;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 46px;
 }
 
 .imgDiscription {

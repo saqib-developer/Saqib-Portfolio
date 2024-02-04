@@ -60,7 +60,7 @@ export default function Intro() {
       <section className={styles.intro}>
         <div className={styles.imgContainer}>
           <div className={styles.img}>
-            <Image src="/img/avatar.png" alt="avatar using a laptop representing saqib" width={102} height={102} layout="intrinsic" />
+            <Image src="/img/avatar.png" alt="avatar using a laptop representing saqib" width={102} height={102} />
           </div>
           <div className={styles.nameArrow}>
             <svg width="122" height="118" viewBox="0 0 122 118" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +79,7 @@ export default function Intro() {
             </svg>
             <div className={styles.name}>
               <span>{displayText}</span>
-              <span style={{ color: "#7127BA" }}>{displayText2}</span>
+              <h1 className={styles.h1}>{displayText2}</h1>
             </div>
           </div>
         </div>
@@ -108,8 +108,8 @@ export default function Intro() {
       </section>
       <section>
         <div className={styles.para1}>
-          <p>
-            <span style={{ fontSize: "50px", lineHeight: "46px" }}>{displayText3}</span>
+          <h2 className={styles.h2}>{displayText3}</h2>
+          <p style={{ lineHeight: "8px" }}>
             <br />
             Currently, Im working at
             <a href="https://www.fiverr.com/share/pAR6Eo" target="_blank" rel="noreferrer" style={{ color: "#00b22d" }}>
