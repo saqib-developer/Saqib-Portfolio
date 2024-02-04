@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Shantell Sans
+- Font Author: Copyright 2022 The Shantell Sans Project Authors (https://github.com/arrowtype/shantell-sans)
+- Font Source: http://fonts.gstatic.com/s/shantellsans/v4/FeUaS0pCoLIo-lcdY7kjvNoQqWVWB0qWpl29ajppTuUTu_kJKmHesPOL-maYi4xZeHCNQ09eBlmv2QcUzJ39-rAISYR8S2i2yPwxjyRN.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

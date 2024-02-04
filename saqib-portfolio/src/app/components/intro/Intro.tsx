@@ -60,7 +60,7 @@ export default function Intro() {
       <section className={styles.intro}>
         <div className={styles.imgContainer}>
           <div className={styles.img}>
-            <Image src="/img/avatar.png" alt="avatar using a laptop representing saqib" width={102} height={102} />
+            <Image src="/avatar.png" alt="avatar using a laptop representing saqib" width={102} height={102} />
           </div>
           <div className={styles.nameArrow}>
             <svg width="122" height="118" viewBox="0 0 122 118" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -124,7 +124,13 @@ export default function Intro() {
           I specialize in creating custom websites using HTML, CSS, and JavaScript. With a meticulous approach, I work closely with clients to
           understand their unique businesses, brand, and goals. By combining your vision with my technical expertise, I can create websites that not
           only have visually stunning designs but are also functional, user-friendly, and responsive across all devices. My goal is to deliver an
-          exceptional online presence that engages your target audience and helps you achieve your digital objectives.
+          exceptional online presence that engages your target audience and helps you achieve your digital objectives. I have successfully completed
+          numerous projects, including personal endeavors and collaborations with clients on
+          <a href="https://www.fiverr.com/share/pAR6Eo" target="_blank" rel="noreferrer" style={{ color: "#00b22d" }}>
+            {" "}
+            Fiverr
+          </a>
+          . I take pride in my work, and you can explore a selection of these projects Here .
         </div>
       </section>
     </article>

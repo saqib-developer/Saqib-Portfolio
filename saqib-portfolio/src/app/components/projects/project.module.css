@@ -1,0 +1,54 @@
+.h2 {
+  color: #9857d3;
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.project {
+  transition: transform 2s, opacity 1s;
+  margin: 25px 0px;
+  border-radius: 15px;
+}
+
+.project:hover {
+  transform: scale(1.04);
+  background-color: #73737314;
+}
+
+.project h3 {
+  font-size: 40px;
+  color: #ccd6f6;
+  margin: 0px;
+}
+
+.proDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proDetail img {
+  width: 66em;
+  height: auto;
+  border-radius: 22px;
+  position: relative;
+  right: -15px;
+  z-index: -1;
+}
+
+.proDetail p {
+  height: fit-content;
+  padding: 18px;
+  line-height: 20px;
+  background: #95959575;
+  border-radius: 20px;
+  color: #ccd6f6;
+}
+
+.link {
+  color: blue;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

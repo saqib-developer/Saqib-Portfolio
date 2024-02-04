@@ -1,0 +1,24 @@
+.project {
+  flex: 1 1 250px;
+  margin: 0 10px;
+}
+
+.project h3 {
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  padding-bottom: 0;
+  margin-bottom: -14px;
+  position: relative;
+  z-index: -1;
+  box-shadow: -6px -6px 13px #0084ff9a;
+}
+
+.projectDetail {
+  background-color: #95959575;
+  border-radius: 10px;
+}
