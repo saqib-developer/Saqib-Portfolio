@@ -68,7 +68,7 @@ export default function Projects() {
   ];
 
   return (
-    <article>
+    <article id="Projects">
       <h2 className={styles.h2}>Featured Projects</h2>
       <section className={styles.cardContainer}>
         {mainProjects.map((project, index) => (

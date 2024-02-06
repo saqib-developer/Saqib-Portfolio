@@ -103,6 +103,10 @@
   .headCover {
     font-size: 38px;
   }
+  .oval {
+    width: 114px;
+    height: 51px;
+  }
 }
 
 @media screen and (max-width: 366px) {

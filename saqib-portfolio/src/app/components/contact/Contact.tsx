@@ -14,7 +14,7 @@ export default function Contact() {
   // };
 
   return (
-    <article className={styles.contact}>
+    <article className={styles.contact} id="Contact">
       <h3>Contact Me</h3>
       <section>
         <a className={styles.link} href="/resume.pdf" target="_blank" rel="noopener noreferrer">

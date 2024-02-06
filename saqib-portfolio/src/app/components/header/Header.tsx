@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import styles from "./header.module.css";
+import Button from "./Button";
 
 export default function Header() {
   return (
@@ -14,10 +15,10 @@ export default function Header() {
             <a href="/">Home</a>
           </li>
           <li className={styles.li}>
-            <button>Projects</button>
+            <Button title={"Projects"} />
           </li>
           <li className={styles.li}>
-            <button>Contact</button>
+            <Button title={"Contact"} />
           </li>
         </ul>
       </nav>
