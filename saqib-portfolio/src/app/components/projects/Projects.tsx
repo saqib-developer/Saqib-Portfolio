@@ -37,7 +37,7 @@ export default function Projects() {
       color: "#ffa50066",
       img: "/unihub.png",
       alt: "React-based web project related to my university",
-      link: "https://unihub-project.netlify.app/",
+      link: "https://unihubdev.netlify.app/",
       description:
         "UniHub is based on my university, UOL, featuring Firebase storage for categorizing university files by subjects, timetable view to display the daily schedule with the time of the current class, and a GPA calculator that stores data in local storage for later use.",
     },
@@ -62,7 +62,7 @@ export default function Projects() {
       title: "Clock",
       img: "/clock.png",
       alt: "Clock Web Project",
-      link: "https://saqibsaqib123.github.io/Clock/",
+      link: "https://saqib-developer.github.io/Clock/",
       description: "Analog clock design implemented using HTML, CSS, and JavaScript.",
     },
   ];
@@ -75,6 +75,7 @@ export default function Projects() {
           <MainProjectCard
             key={index}
             title={project.title}
+            link={project.link}
             color={project.color}
             img={project.img}
             alt={project.alt}

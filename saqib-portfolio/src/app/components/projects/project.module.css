@@ -19,6 +19,7 @@
   font-size: 40px;
   color: #ccd6f6;
   margin: 0px;
+  line-height: 44px;
 }
 
 .proDetail {
@@ -28,7 +29,7 @@
 }
 
 .proDetail img {
-  width: 66em;
+  width: 277px;
   height: auto;
   border-radius: 22px;
   position: relative;
@@ -51,4 +52,10 @@
 
 .link:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 770px) {
+  .proDetail {
+    flex-direction: column;
+  }
 }

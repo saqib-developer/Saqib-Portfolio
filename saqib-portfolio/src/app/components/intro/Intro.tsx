@@ -95,8 +95,9 @@ export default function Intro() {
           <br />
 
           <span className={styles.headCover}>
-            Judges a book <br />
-            by its{" "}
+            Judges&nbsp;a&nbsp;book
+            <br />
+            by&nbsp;its&nbsp;
             <span style={{ color: "#7127BA" }}>
               <div className={styles.oval}></div>cover
             </span>
@@ -121,16 +122,9 @@ export default function Intro() {
         </div>
 
         <div className={styles.para2}>
-          I specialize in creating custom websites using HTML, CSS, and JavaScript. With a meticulous approach, I work closely with clients to
-          understand their unique businesses, brand, and goals. By combining your vision with my technical expertise, I can create websites that not
-          only have visually stunning designs but are also functional, user-friendly, and responsive across all devices. My goal is to deliver an
-          exceptional online presence that engages your target audience and helps you achieve your digital objectives. I have successfully completed
-          numerous projects, including personal endeavors and collaborations with clients on
-          <a href="https://www.fiverr.com/share/pAR6Eo" target="_blank" rel="noreferrer" style={{ color: "#00b22d" }}>
-            {" "}
-            Fiverr
-          </a>
-          . I take pride in my work, and you can explore a selection of these projects Here .
+          I specialize in crafting bespoke websites with HTML, CSS, and JavaScript. Collaborating closely with clients, I blend their vision with my
+          technical expertise to create visually stunning, functional, and responsive websites. My goal is to provide a captivating online presence
+          that resonates with your audience and achieves your digital objectives. Explore a selection of my projects here.
         </div>
       </section>
     </article>

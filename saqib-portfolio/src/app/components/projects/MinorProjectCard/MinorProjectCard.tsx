@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function MinorProjectCard(props: any) {
   return (
     <a className={styles.project} target="_blank" rel="noreferrer" href={props.link}>
-      <Image src={props.img} width={100} height={100} alt={props.alt} />
+      <Image src={props.img} width={500} height={500} alt={props.alt} />
       <div className={styles.projectDetail}>
         <h3>{props.title}</h3>
         <p>
