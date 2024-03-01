@@ -8,7 +8,7 @@ export default function Header() {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <a href="/">
-          <Image className={styles.img} src={"/saqib-img-4.png"} alt="Muhammad Saqib Nawaz Image" width={50} height={50} />
+          <Image className={styles.img} src={"/saqib-img-6.png"} alt="Muhammad Saqib Nawaz Image" width={50} height={50} />
         </a>
         <ul className={styles.ul}>
           <li className={styles.li}>
