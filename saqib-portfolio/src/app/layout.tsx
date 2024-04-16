@@ -28,7 +28,7 @@ export default function RootLayout({
         {/* <!-- for Facebook & Whatsapp -> */}
         {/* <!-- Site Name, Title, and Description to be displayed --> */}
         <meta property="og:site_name" content="Saqib's Portfolio" />
-        <meta property="og:title" content="Saqib Projects and Experience Preview" />
+        <meta property="og:title" content="Saqib Experience and Projects Preview" />
         <meta
           property="og:description"
           content="Welcome to Saqib's portfolio, where creativity meets functionality. Dive into a collection of innovative web projects."
@@ -39,7 +39,7 @@ export default function RootLayout({
         <meta property="og:image:type" content="image/png" />
         {/* <!-- Any size up to 300. Anything above 300px will not work in WhatsApp --> */}
         <meta property="og:image:width" content="258" />
-        <meta property="og:image:height" content="260" />
+        <meta property="og:image:height" content="258" />
         {/* <!-- Website to visit when clicked in Facebook or WhatsApp--> */}
         <meta property="og:url" content="https://saqibdev.netlify.app/" />
       </head>
