@@ -25,9 +25,11 @@ export default function RootLayout({
         <meta property="og:title" content="Saqib's Portfolio" />
         <meta
           property="og:description"
-          content="Passionate web developer and computer science student showcasing a collection of innovative projects and experiences."
+          content="Welcome to Saqib's portfolio, where creativity meets functionality. Dive into a collection of innovative web projects."
         />
-        <meta property="og:image" content="/avatar.png" />
+        <meta property="og:image" itemProp="image" content="/avatar.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image:type" content="image/png" />
         <meta property="og:url" content="https://saqibdev.netlify.app/" />
       </head>
       <body className={inter.className}>{children}</body>
