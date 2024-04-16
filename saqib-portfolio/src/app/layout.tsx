@@ -34,7 +34,7 @@ export default function RootLayout({
           content="Welcome to Saqib's portfolio, where creativity meets functionality. Dive into a collection of innovative web projects."
         />
         {/* <!-- Image to display --> */}
-        <meta property="og:image" content="https://saqibdev.netlify.app/saqib-img-6.png" />
+        <meta property="og:image" content="https://saqibdev.netlify.app/avatar-2.png" />
         <meta property="og:type" content="website" />
         <meta property="og:image:type" content="image/png" />
         {/* <!-- Any size up to 300. Anything above 300px will not work in WhatsApp --> */}
