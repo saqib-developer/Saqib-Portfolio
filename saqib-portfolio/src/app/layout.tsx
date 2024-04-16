@@ -24,7 +24,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="PRC5k_u6e51a9it1DW_BNyphZL4K8QoDgF24xzFBxjE" />
 
         {/* <!-- for Microsoft apps--> */}
-        <meta name="msapplication-TileImage" content="https://github.com/saqib-developer/Saqib-Portfolio/blob/720e833b42ed297fd5383182e6d981d1d7b60d7f/saqib-portfolio/public/avatar-2.png" />
+        <meta name="msapplication-TileImage" content="./avatar-2.png" />
         {/* <!-- for Facebook & Whatsapp -> */}
         {/* <!-- Site Name, Title, and Description to be displayed --> */}
         <meta property="og:site_name" content="Saqib's Portfolio" />
@@ -34,7 +34,7 @@ export default function RootLayout({
           content="Welcome to Saqib's portfolio, where creativity meets functionality. Dive into a collection of innovative web projects."
         />
         {/* <!-- Image to display --> */}
-        <meta property="og:image" content="https://github.com/saqib-developer/Saqib-Portfolio/blob/720e833b42ed297fd5383182e6d981d1d7b60d7f/saqib-portfolio/public/avatar-2.png" />
+        <meta property="og:image" content="./avatar-2.png" />
         <meta property="og:type" content="website" />
         <meta property="og:image:type" content="image/png" />
         {/* <!-- Any size up to 300. Anything above 300px will not work in WhatsApp --> */}
