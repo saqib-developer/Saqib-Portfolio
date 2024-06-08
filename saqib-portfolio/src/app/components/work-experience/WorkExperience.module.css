@@ -37,13 +37,12 @@
 }
 
 .details h3 {
-  text-shadow: 0px 0px 7px white;
+  text-shadow: 0px 0px 5px white;
 }
 
 .details p {
   font-size: 14px;
   line-height: 19px;
-  text-shadow: 0px 0px 9px white;
 }
 
 @media screen and (max-width: 426px) {

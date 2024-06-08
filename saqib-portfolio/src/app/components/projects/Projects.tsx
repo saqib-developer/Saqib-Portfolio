@@ -6,64 +6,75 @@ import MinorProjectCard from "./MinorProjectCard/MinorProjectCard";
 export default function Projects() {
   const mainProjects = [
     {
-      title: "Amazon Clone",
-      color: "#ffffff69",
-      img: "/amazon-clone.png",
-      alt: "React-based web project on Amazon clone",
-      link: "https://amazon-clone-saqib.netlify.app/",
+      title: "UniHub",
+      color: "black",
+      img: "/projects/unihub.png",
+      alt: "React-based web project related to my university",
+      link: "https://unihub-uol.vercel.app/",
       description:
-        "Developed a feature-rich Amazon clone website incorporating essential functionalities such as a seamless cart option, ad posting capabilities, and user account management using Firebase's robust database and authentication services.",
+        "Developed UniHub, a comprehensive platform for my university (UOL), a timetable view for daily schedules, and a GPA/CGPA calculator that stores data locally for future use. This project enhances the academic experience by providing easy access to important resources.",
     },
     {
       title: "Chatty",
       color: "#ffffff69",
-      img: "/chatty.png",
+      img: "/projects/chatty.png",
       alt: "React-based web project of a chatting app named Chatty",
       link: "https://chatty-saqib.netlify.app/",
       description:
-        "Chatty is a React-based web app that allows casual conversations with friends and family. It's a great way to stay connected with loved ones worldwide. Utilizes Firebase for authentication, database, and storage purposes.",
+        "Developed Chatty, a dynamic React-based web application designed for casual conversations. It allows users to stay connected with friends and family globally, leveraging Firebase for authentication, database, and storage to provide a reliable and user-friendly chatting experience.",
+    },
+    {
+      title: "Amazon Clone",
+      color: "#ffffff69", 
+      img: "/projects/amazon-clone.png",
+      alt: "React-based web project on Amazon clone",
+      link: "https://amazon-clone-saqib.netlify.app/",
+      description:
+        "Created a fully functional Amazon clone with essential e-commerce features such as seamless cart integration, ad posting, and comprehensive user account management. Utilized Firebase for its robust database and authentication services to ensure a smooth and secure user experience.",
     },
     {
       title: "Friend Portfolio",
       color: "#9400c680",
-      img: "/friend-portfolio.png",
+      img: "/projects/friend-portfolio.png",
       alt: "React-based web project of a portfolio for a friend",
       link: "https://mtouseef-portfolio.netlify.app/",
       description:
-        "Designed a captivating portfolio showcasing my friend's expertise as a game developer. The portfolio includes a Firebase-integrated database, allowing easy upload and display of impressive projects to demonstrate skills and creativity in the gaming industry.",
-    },
-    {
-      title: "UniHub",
-      color: "#ffa50066",
-      img: "/unihub.png",
-      alt: "React-based web project related to my university",
-      link: "https://unihubdev.netlify.app/",
-      description:
-        "UniHub is based on my university, UOL, featuring Firebase storage for categorizing university files by subjects, timetable view to display the daily schedule with the time of the current class, and a GPA calculator that stores data in local storage for later use.",
+        "Designed an engaging and visually appealing portfolio for a game developer friend. This project highlights their skills and projects, featuring a Firebase-integrated database for easy project uploads and showcasing their creativity and expertise in the gaming industry.",
     },
   ];
 
   const minorProjects = [
     {
       title: "TicTacToe",
-      img: "/tictactoe.png",
+      img: "/projects/tictactoe.png",
       alt: "TicTacToe Web Project",
       link: "https://msntictactoe.netlify.app/",
-      description: "Classic TicTacToe game implemented using HTML, CSS, JavaScript and React.",
+      description:
+        "Implemented a classic TicTacToe game using HTML, CSS, JavaScript, and React. This project showcases my ability to create interactive and engaging user experiences.",
     },
     {
       title: "Calculator",
-      img: "/calculator.png",
-      alt: "Caculator Web Project",
+      img: "/projects/calculator.png",
+      alt: "Calculator Web Project",
       link: "https://saqib-developer.github.io/Calculator/",
-      description: "Simple calculator app built with HTML, CSS, and JavaScript.",
+      description:
+        "Built a simple yet functional calculator app with HTML, CSS, and JavaScript, demonstrating my skills in creating practical web applications.",
     },
     {
       title: "Clock",
-      img: "/clock.png",
+      img: "/projects/clock.png",
       alt: "Clock Web Project",
       link: "https://saqib-developer.github.io/Clock/",
-      description: "Analog clock design implemented using HTML, CSS, and JavaScript.",
+      description:
+        "Designed an analog clock using HTML, CSS, and JavaScript. This project highlights my ability to implement visually appealing and accurate web components.",
+    },
+    {
+      title: "Space Destroy",
+      img: "/projects/space-destroy.png",
+      alt: "Space Destroy Web Project",
+      link: "https://space-destroy.netlify.app/",
+      description:
+        "Developed Space Destroy, an engaging game using HTML, CSS, and JavaScript. This project demonstrates my capability in game development and interactive design.",
     },
   ];
 
